@@ -65,6 +65,8 @@ namespace SampleLocation.Views
 					latlong = position.Latitude + "," + position.Longitude;
 				}
                 await lvvm.GetNearByLocation(latlong);
+
+                // add location in map pins.
                 foreach(var item in lvvm.PlaceList)
                 {
                     Position _geoPosition = new Position(item.geometry.location.lat, item.geometry.location.lng);

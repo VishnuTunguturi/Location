@@ -46,6 +46,10 @@ namespace SampleLocation.ViewModels
 			}
 		}
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:SampleLocation.ViewModels.LocationDetailViewModel"/> class.
+        /// </summary>
+        /// <param name="placeid">Placeid.</param>
         public LocationDetailViewModel(string placeid)
 		{
 			localService = new LocalService();
@@ -54,6 +58,9 @@ namespace SampleLocation.ViewModels
             Task.Factory.StartNew(() => GetLocationDetail());
 		}
 
+        /// <summary>
+        /// Gets the location detail.
+        /// </summary>
         public async void GetLocationDetail()
 		{
 			if (IsBusy)

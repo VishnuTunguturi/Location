@@ -49,6 +49,11 @@ namespace SampleLocation.Services
 			}
         }
 
+        /// <summary>
+        /// Gets the photo URL.
+        /// </summary>
+        /// <returns>The photo URL.</returns>
+        /// <param name="photoreference">Photoreference.</param>
         public async Task<string> GetPhotoUrl(string photoreference)
         {
 			try

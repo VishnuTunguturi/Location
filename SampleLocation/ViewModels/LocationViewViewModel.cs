@@ -32,6 +32,11 @@ namespace SampleLocation.ViewModels
             //Task.Factory.StartNew(async () => await GetNearByLocation());
         }
 
+        /// <summary>
+        /// Gets the near by location.
+        /// </summary>
+        /// <returns>The near by location.</returns>
+        /// <param name="latlong">Latlong.</param>
         public async Task GetNearByLocation(string latlong="0.0,0.0")
         {
             if (IsBusy)
