@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{E445AD23-6D98-450D-9870-E955F718D75C}|Default">
+  <MonoDevelop.Ide.ItemProperties.SampleLocation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E9DB0BFB-AD72-4C3B-9FC5-E4F662AAB761" />
+  <MonoDevelop.Ide.ItemProperties.SampleLocation.Droid PreferredExecutionTarget="Android.FA44TSF04517" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleLocation/ViewModels/LocationDetailViewModel.cs">
+    <Files>
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="14" Column="118" />
+      <File FileName="Droid/MainActivity.cs" Line="23" Column="1" />
+      <File FileName="Droid/Renderer/FormMapRenderer.cs" Line="26" Column="37" />
+      <File FileName="SampleLocation/Views/LocationView.xaml" Line="14" Column="37" />
+      <File FileName="SampleLocation/Views/LocationView.xaml.cs" Line="5" Column="39" />
+      <File FileName="SampleLocation/Services/LocalService.cs" Line="52" Column="22" />
+      <File FileName="SampleLocation/ViewModels/LocationViewViewModel.cs" Line="36" Column="39" />
+      <File FileName="SampleLocation/ViewModels/LocationDetailViewModel.cs" Line="48" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vishnumohantunguturi/Desktop/SampleLocation/Droid/Renderer/FormMapRenderer.cs" relfile="Droid/Renderer/FormMapRenderer.cs" line="27" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

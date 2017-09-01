@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SampleLocation.Views.LocationDetail">
+    <Grid>
+	<StackLayout Padding="10" Spacing="10">
+        <Image Source="{Binding PhotoUrl}" Aspect="Fill"  HorizontalOptions="FillAndExpand" HeightRequest="200"/>
+
+        <Label Text="{Binding PlaceDetail.name}" TextColor="Black" FontSize="16" FontAttributes="Bold"/>
+        
+        <StackLayout Spacing="5">
+            <Label Text="Address: " TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+            <Label Text="{Binding PlaceDetail.formatted_address}" TextColor="Black"  FontSize="14"/>
+         </StackLayout>
+        <StackLayout Spacing="5">
+            <Label Text="Rating: " TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+            <Label Text="{Binding PlaceDetail.rating}" TextColor="Black"  FontSize="14"/>
+         </StackLayout>
+        <StackLayout Spacing="5">
+            <Label Text="Price Level: " TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+            <Label Text="{Binding PlaceDetail.price_level}" TextColor="Black"  FontSize="14"/>
+         </StackLayout>
+    </StackLayout>
+        <StackLayout IsVisible="{Binding IsBusy}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+            <ActivityIndicator IsRunning="{Binding IsBusy}" Color="Black"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
